@@ -98,7 +98,7 @@ if st.button("🚀 Analyze & Verify Skills", type="primary"):
                 {resume_text[:4000]}
                 """
                 
-                # Standard stable flash model
+                # Updated directly to recommended gemini-2.5-flash
                 response_ext = client.models.generate_content(
                     model='gemini-2.5-flash',
                     contents=extraction_prompt,
