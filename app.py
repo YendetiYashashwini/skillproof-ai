@@ -132,7 +132,7 @@ if st.button("🚀 Analyze & Verify Skills", type="primary"):
                 """
 
                 response_eval = client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model="gemini-3.8-flash",
                     contents=comparison_prompt,
                 )
 
